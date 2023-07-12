@@ -18,10 +18,14 @@ console.log(chalk.magenta(`\nDownload : https://github.com/DJ-PAIN/[PlaceHolder]
 console.log(chalk.magenta(`\nDiscord: [PlaceHolder] `))
 
 console.log(chalk.magenta(`\nThanks for using [PlaceHolder] `))
+console.log(chalk.Red(`\n [WARN] You may need to edit the delay timer for opening up the music in google`))
+// check if works on desktop when get home
 const readline = require('readline-sync');
 const clear = require('clear');
 
 // the off brand ahhh bat pause line
+
+// what was that note
 
 readline.keyInPause();
 
@@ -34,9 +38,9 @@ const youtubeURL = "https://www.youtube.com/watch?v=sCkzRk9CxZ0&ab_channel=JustI
 exec(`start ${youtubeURL}`);
 // wait 6
 setTimeout(() => {}, 6000); 
+// this is the time delay for oepning the youtube link change this to match your pcss speeds
 
 
-// uhhh this how print lyric cool cool glados is yayaya
 const lineDelay = 50; // Delay between each line in milliseconds
 
 const lyrics = [
@@ -102,6 +106,7 @@ const lyrics = [
   "Still alive",
   "Still alive.",
   "Still alive."
+  "This was made by Brahman\nThank you so much for downloading"
 ];
 
 function printLyrics() {
