@@ -1,23 +1,6 @@
 process.title = "GladOS"
 const chalk = require("chalk")
-console.log(chalk.magenta(`██████╗ ██████╗  █████╗ ██╗  ██╗███╗   ███╗ █████╗ ███╗   ██╗`))
-console.log(chalk.magenta(`██╔══██╗██╔══██╗██╔══██╗██║  ██║████╗ ████║██╔══██╗████╗  ██║`))
-console.log(chalk.magenta(`██████╔╝██████╔╝███████║███████║██╔████╔██║███████║██╔██╗ ██║`))
-console.log(chalk.magenta(`██╔══██╗██╔══██╗██╔══██║██╔══██║██║╚██╔╝██║██╔══██║██║╚██╗██║`))
-console.log(chalk.magenta(`██████╔╝██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║`))
-console.log(chalk.magenta(`╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝`))
-console.log(chalk.magenta(``))
-console.log(chalk.magenta(`@Brahman`))
 
-console.log(chalk.magenta(`https://github.com/DJ-PAIN`))
-
-console.log(chalk.magenta(`\nMade and provided by Brahman and the [PlaceHolder] Team. `))
-
-console.log(chalk.magenta(`\nDownload : https://github.com/DJ-PAIN/[PlaceHolder] `))
-
-console.log(chalk.magenta(`\nDiscord: [PlaceHolder] `))
-
-console.log(chalk.magenta(`\nThanks for using [PlaceHolder] `))
 console.log(chalk.Red(`\n [WARN] You may need to edit the delay timer for opening up the music in google`))
 // check if works on desktop when get home
 const readline = require('readline-sync');
